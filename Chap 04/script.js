@@ -7,11 +7,11 @@ var age="18"
 var qualification ="inter"
 var residence ="FB Area"
 
-var 4name 
-var *class
-var full name
-var 3Product
-var sm#it
+// var 4name 
+// var *class
+// var full name
+// var 3Product
+// var sm#it
 
 // QUESTION NO 3
 document.write("<h1>Rules for naming JS Variables</h1>")

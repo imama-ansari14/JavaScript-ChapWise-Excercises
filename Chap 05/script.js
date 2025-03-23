@@ -17,28 +17,54 @@
 // document.write("Modulus:"+mod+ "<br>")
 
 // QUESTION NO 3
-let variable
-document.write("Value after variable declaration is "+ variable+ "<br>")
+// let variable
+// document.write("Value after variable declaration is "+ variable+ "<br>")
 
-variable=5
-document.write("Initial Value: "+5+ "<br>")
+// variable=5
+// document.write("Initial Value: "+5+ "<br>")
 
-let inc = ++variable
-document.write("Value after increment is: "+ inc + "<br>")
+// let inc = ++variable
+// document.write("Value after increment is: "+ inc + "<br>")
 
-variable2=variable+7
-document.write("Value after addition is: "+variable2 + "<br>")
+// variable2=variable+7
+// document.write("Value after addition is: "+variable2 + "<br>")
 
-let dec= --variable2
-document.write("Value after decrement is:" +dec + "<br>")
+// let dec= --variable2
+// document.write("Value after decrement is:" +dec + "<br>")
 
-let div =dec%3
-document.write("The remainder is "+div)
+// let div =dec%3
+// document.write("The remainder is "+div)
 
 // QUESTION NO 4
+// let ticketPr=600;
+// let fiveTicket= ticketPr*5 ;
+
+// document.write("Total cost to buy 5 tickets to a movie is "+fiveTicket+"PKR");
+
+// QUESTION NO 6
+// let celcius=25
+// let fahrenheit= (celcius*9/5)+32
+// document.write(celcius+"°C is "+ fahrenheit+"°F <br>" )
+
+// let fahrenheit2=70
+// let celcius2= (fahrenheit2-32)*5/9
+// document.write(fahrenheit2+"°F is "+celcius2 +"°C")
+
+// QUESTION NO 7
+let itemOneP=650
+let itemTwoP=100
+let itemOneQ=3
+let itemTwoQ=7
+let shippingCharges=100
+let totalCost = (itemOneP * itemOneQ) + (itemTwoP * itemTwoQ) + shippingCharges;
+
+document.write("<h1>Shopping Cart</h1> <br><p> Price of item 1 is "+itemOneP+"</p>"+
+"<p>Quantity of item 1 is "+itemOneQ+ "</p>"+
+"Price of item 2 is "+ itemTwoP+
+"<p>Quantity of item 2 is "+itemTwoQ+ "</p> <br>"+
+"<h3>total cost of your order is "+totalCost +"</h3>"
+ )
 
 
-// QUESTION NO 5
-// let table=4
 
-// document.write("Table of 4 <br>"+table+"x1="+table)
+

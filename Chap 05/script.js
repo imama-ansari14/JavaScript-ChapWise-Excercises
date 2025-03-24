@@ -51,20 +51,26 @@
 // document.write(fahrenheit2+"°F is "+celcius2 +"°C")
 
 // QUESTION NO 7
-let itemOneP=650
-let itemTwoP=100
-let itemOneQ=3
-let itemTwoQ=7
-let shippingCharges=100
-let totalCost = (itemOneP * itemOneQ) + (itemTwoP * itemTwoQ) + shippingCharges;
+// let itemOneP=650
+// let itemTwoP=100
+// let itemOneQ=3
+// let itemTwoQ=7
+// let shippingCharges=100
+// let totalCost = (itemOneP * itemOneQ) + (itemTwoP * itemTwoQ) + shippingCharges;
 
-document.write("<h1>Shopping Cart</h1> <br><p> Price of item 1 is "+itemOneP+"</p>"+
-"<p>Quantity of item 1 is "+itemOneQ+ "</p>"+
-"Price of item 2 is "+ itemTwoP+
-"<p>Quantity of item 2 is "+itemTwoQ+ "</p> <br>"+
-"<h3>total cost of your order is "+totalCost +"</h3>"
- )
+// document.write("<h1>Shopping Cart</h1> <br><p> Price of item 1 is "+itemOneP+"</p>"+
+// "<p>Quantity of item 1 is "+itemOneQ+ "</p>"+
+// "Price of item 2 is "+ itemTwoP+
+// "<p>Quantity of item 2 is "+itemTwoQ+ "</p> <br>"+
+// "<h3>total cost of your order is "+totalCost +"</h3>"
+//  )
 
+// QUESTION NO 8
+// let tMarks=980
+// let mObt=804
+// let percentage= mObt/tMarks*100
 
-
-
+// document.write("<h1>Marks Sheet</h1>")
+// document.write("Total marks: "+tMarks +"<br>")
+// document.write("Marks obtained: "+mObt +"<br>")
+// document.write("percentage: "+percentage)

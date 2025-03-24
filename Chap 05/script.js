@@ -73,4 +73,34 @@
 // document.write("<h1>Marks Sheet</h1>")
 // document.write("Total marks: "+tMarks +"<br>")
 // document.write("Marks obtained: "+mObt +"<br>")
-// document.write("percentage: "+percentage)
+// document.write("percentage: "+percentage +"%")
+
+// QUESTION NO 9
+// let totalAmount=(10*104.80)+(25*28)
+
+// document.write("<h1>Currency in PKR</h1>")
+// document.write("<p>Total Currency in PKR: "+totalAmount +"</p>")
+
+// QUESTION NO 10
+// let num=((4 +5) *10 )/2
+// document.write(num)
+
+// QUESTION NO 11
+// let currentYear=2016
+// let birthYear=1992
+// let age =currentYear-birthYear
+
+// document.write("<h1>Age Calculator</h1>")
+// document.write("<p>Current Year:"+currentYear+"</p>")
+// document.write("<p>Birth Year:"+birthYear+"</p>")
+// document.write("<p>Your Age:"+age+"</p>")
+
+// QUESTION NO 12
+let radius=20
+
+document.write("<h1>The Geometrizer</h1>");
+document.write("<p>Radius of a circle:"+ radius +"</p>");
+document.write("<p>The circumference is:"+  +"</p>");
+document.write("<p>The area is :"+  +"</p>");
+
+

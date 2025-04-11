@@ -7,4 +7,11 @@
 // }
 
 // QUESTION NO 02
-
+let gender = prompt("Tell me your gender please!");
+if (gender === "male") {
+  alert("Good Morning Sir");
+} else if (gender === "female") {
+  alert("Good Morning Maam");
+} else {
+  alert("Good Morning");
+}

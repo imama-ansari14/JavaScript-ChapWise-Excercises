@@ -28,3 +28,16 @@
 //         alert("Invalid color entered");
 //     }
 
+// QUESTION NO 04
+// let fuel = +prompt("Enter the remaining fuel in your car in liters");
+// if (fuel < 0.25) {
+//         alert("Please refil the fuel in your car");
+// } else   {
+//     alert("Fuel level is sufficient");
+// }
+
+// QUESTION NO 05
+var a =4
+if (++a === 5) {
+    alert("given condition for variable a is true")
+}

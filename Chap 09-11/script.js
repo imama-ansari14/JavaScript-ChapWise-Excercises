@@ -89,6 +89,15 @@
 // }
 // OUTPUT: car is smaller than cat
 
-
 // QUESTION NO 06
+// let mathsMarks = prompt("enter your Maths Marks")
+// let phyMarks = prompt("enter your Physics Marks")
+// let compMarks = prompt("enter your Computer Marks")
+
+let total = 300
+
+
+document.write("<h1>Marks Sheet</h1>")
+document.write("<p>Total Marks :"+ total+"</p>")
+document.write("<p>Marks Obtained :"+ +"</p>")
 

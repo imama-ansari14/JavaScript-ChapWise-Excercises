@@ -90,28 +90,37 @@
 // OUTPUT: car is smaller than cat
 
 // QUESTION NO 06
-let mathsMarks = +prompt("enter your Maths Marks")
-let phyMarks = +prompt("enter your Physics Marks")
-let compMarks = +prompt("enter your Computer Marks")
+let mathsMarks = +prompt("enter your Maths Marks");
+let phyMarks = +prompt("enter your Physics Marks");
+let compMarks = +prompt("enter your Computer Marks");
 
-let obtMarks = mathsMarks+phyMarks+compMarks
+// OBTAINED MARKS OF ALL SUBJECTS
+let obtMarks = mathsMarks + phyMarks + compMarks;
+// TOTAL MARKS OF ALL SUBJECTS
 let total = 300;
-let percentage= (obtMarks/total)*100
+// PERCENTAGE OF ALL SUBJECTS
+let percentage = (obtMarks / total) * 100;
+// GRADE AND REMARKS
+let grade = "";
+let remarks = "";
 
 if (percentage >= 80) {
-    grade= A-one 
-    remarks= Excellent
-}else if(percentage >= 70){
-    grade= A 
-    remarks= Good 
+  grade = "A-one";
+  remarks = "Excellent";
+} else if (percentage >= 70) {
+  grade = "A";
+  remarks = "Good";
+} else if (percentage >= 60) {
+  grade = "B";
+  remarks = "You need to improve";
+} else {
+  grade = "Fail";
+  remarks = "Sorry";
 }
- else {
-    
-}
- 
+
 document.write("<h1>Marks Sheet</h1>");
 document.write("<p>Total Marks :" + total + "</p>");
-document.write("<p>Marks Obtained :" + +"</p>");
-document.write("<p>Percentage :" +percentage +"</p>");
-document.write("<p>Grade :" + +"</p>");
-document.write("<p>Remarks :" + +"</p>");
+document.write("<p>Marks Obtained :" + obtMarks + "</p>");
+document.write("<p>Percentage :" + percentage + "</p>");
+document.write("<p>Grade :" + grade + "</p>");
+document.write("<p>Remarks :" + remarks + "</p>");

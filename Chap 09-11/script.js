@@ -90,37 +90,50 @@
 // OUTPUT: car is smaller than cat
 
 // QUESTION NO 06
-let mathsMarks = +prompt("enter your Maths Marks");
-let phyMarks = +prompt("enter your Physics Marks");
-let compMarks = +prompt("enter your Computer Marks");
+// let mathsMarks = +prompt("enter your Maths Marks");
+// let phyMarks = +prompt("enter your Physics Marks");
+// let compMarks = +prompt("enter your Computer Marks");
 
-// OBTAINED MARKS OF ALL SUBJECTS
-let obtMarks = mathsMarks + phyMarks + compMarks;
-// TOTAL MARKS OF ALL SUBJECTS
-let total = 300;
-// PERCENTAGE OF ALL SUBJECTS
-let percentage = (obtMarks / total) * 100;
-// GRADE AND REMARKS
-let grade = "";
-let remarks = "";
+// // OBTAINED MARKS OF ALL SUBJECTS
+// let obtMarks = mathsMarks + phyMarks + compMarks;
+// // TOTAL MARKS OF ALL SUBJECTS
+// let total = 300;
+// // PERCENTAGE OF ALL SUBJECTS
+// let percentage = (obtMarks / total) * 100;
+// // GRADE AND REMARKS
+// let grade = "";
+// let remarks = "";
 
-if (percentage >= 80) {
-  grade = "A-one";
-  remarks = "Excellent";
-} else if (percentage >= 70) {
-  grade = "A";
-  remarks = "Good";
-} else if (percentage >= 60) {
-  grade = "B";
-  remarks = "You need to improve";
-} else {
-  grade = "Fail";
-  remarks = "Sorry";
+// if (percentage >= 80) {
+//   grade = "A-one";
+//   remarks = "Excellent";
+// } else if (percentage >= 70) {
+//   grade = "A";
+//   remarks = "Good";
+// } else if (percentage >= 60) {
+//   grade = "B";
+//   remarks = "You need to improve";
+// } else {
+//   grade = "Fail";
+//   remarks = "Sorry";
+// }
+
+// document.write("<h1>Marks Sheet</h1>");
+// document.write("<p>Total Marks :" + total + "</p>");
+// document.write("<p>Marks Obtained :" + obtMarks + "</p>");
+// document.write("<p>Percentage :" + percentage + "</p>");
+// document.write("<p>Grade :" + grade + "</p>");
+// document.write("<p>Remarks :" + remarks + "</p>");
+
+// QUESTION NO 07
+let secretNum=4
+let guessNum= +prompt("Guess the secret number (1 to 10)")
+
+if (guessNum === secretNum) {
+  alert("Bingo! Correct answer")
+}else if(guessNum-1 === secretNum ){
+  alert("Close enough to the correct answer");
 }
-
-document.write("<h1>Marks Sheet</h1>");
-document.write("<p>Total Marks :" + total + "</p>");
-document.write("<p>Marks Obtained :" + obtMarks + "</p>");
-document.write("<p>Percentage :" + percentage + "</p>");
-document.write("<p>Grade :" + grade + "</p>");
-document.write("<p>Remarks :" + remarks + "</p>");
+ else {
+  alert("Wrong guess, try again");
+}

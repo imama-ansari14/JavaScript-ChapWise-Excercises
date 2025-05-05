@@ -126,14 +126,24 @@
 // document.write("<p>Remarks :" + remarks + "</p>");
 
 // QUESTION NO 07
-let secretNum=4
-let guessNum= +prompt("Guess the secret number (1 to 10)")
+// let secretNum=4
+// let guessNum= +prompt("Guess the secret number (1 to 10)")
 
-if (guessNum === secretNum) {
-  alert("Bingo! Correct answer")
-}else if(guessNum-1 === secretNum ){
-  alert("Close enough to the correct answer");
-}
- else {
-  alert("Wrong guess, try again");
+// if (guessNum === secretNum) {
+//   alert("Bingo! Correct answer")
+// }else if(guessNum-1 === secretNum ){
+//   alert("Close enough to the correct answer");
+// }
+//  else {
+//   alert("Wrong guess, try again");
+// }
+
+// QUESTION NO 08
+let givenNum=+prompt("write your frav number to check whether it is divisible by 3 or not!")
+let result = givenNum%3
+
+if (result===0) {
+    alert (givenNum+" is divisible by 3")
+} else if (result===1){
+    alert (givenNum+" is not divisible by 3")
 }

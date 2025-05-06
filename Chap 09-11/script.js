@@ -139,11 +139,22 @@
 // }
 
 // QUESTION NO 08
-let givenNum=+prompt("write your frav number to check whether it is divisible by 3 or not!")
-let result = givenNum%3
+// let givenNum=+prompt("write your frav number to check whether it is divisible by 3 or not!")
+// let result = givenNum%3
 
-if (result===0) {
-    alert (givenNum+" is divisible by 3")
-} else if (result===1){
-    alert (givenNum+" is not divisible by 3")
-}
+// if (result===0) {
+//     alert (givenNum+" is divisible by 3")
+// } else if (result===1){
+//     alert (givenNum+" is not divisible by 3")
+// }
+
+// QUESTION NO 09
+let givInp=+prompt("write your frav number")
+let check = givInp%2
+
+if (check===0) {
+        alert (givInp+ " is even number ")
+    } else if (check===1){
+        alert (givInp+ " is Odd number ")
+    }
+    

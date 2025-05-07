@@ -149,12 +149,25 @@
 // }
 
 // QUESTION NO 09
-let givInp=+prompt("write your frav number")
-let check = givInp%2
+// let givInp=+prompt("write your frav number")
+// let check = givInp%2
 
-if (check===0) {
-        alert (givInp+ " is even number ")
-    } else if (check===1){
-        alert (givInp+ " is Odd number ")
-    }
+// if (check===0) {
+//         alert (givInp+ " is even number ")
+//     } else if (check===1){
+//         alert (givInp+ " is Odd number ")
+//     }
     
+// QUESTION NO 10
+let temp =+prompt("Enter your citie's weather")
+if (temp>40) {
+    alert("It is too hot outside")
+} else if (temp>30){
+    alert("The weather today is normal")
+}else if (temp>20){
+    alert("Today's Weather is cool")
+}else if (temp>10){
+    alert("OMG! Today's weather is so cool")
+}else{
+    alert("Soo cool at you side")
+}

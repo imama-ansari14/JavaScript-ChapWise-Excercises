@@ -159,15 +159,20 @@
 //     }
     
 // QUESTION NO 10
-let temp =+prompt("Enter your citie's weather")
-if (temp>40) {
-    alert("It is too hot outside")
-} else if (temp>30){
-    alert("The weather today is normal")
-}else if (temp>20){
-    alert("Today's Weather is cool")
-}else if (temp>10){
-    alert("OMG! Today's weather is so cool")
-}else{
-    alert("Soo cool at you side")
-}
+// let temp =+prompt("Enter your citie's weather")
+// if (temp>40) {
+//     alert("It is too hot outside")
+// } else if (temp>30){
+//     alert("The weather today is normal")
+// }else if (temp>20){
+//     alert("Today's Weather is cool")
+// }else if (temp>10){
+//     alert("OMG! Today's weather is so cool")
+// }else{
+//     alert("Soo cool at you side")
+// }
+
+// QUESTION NO 11
+// let num1=+prompt("Enter the first number of your calculation")
+// let num2=+prompt("Enter the second number of your calculation")
+let opr = prompt("Enter the operation (+, -, *, /, %):");

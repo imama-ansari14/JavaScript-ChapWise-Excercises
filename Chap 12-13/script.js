@@ -21,13 +21,25 @@
 // }
 
 // QUESTION NO 4
-let inpCharac = prompt("Enter any alphabet of your choice (One Letter)");
-if (inpCharac === "a" ||
-  inpCharac === "e" ||
-  inpCharac === "i" ||
-  inpCharac === "o" ||
-  inpCharac === "u") {
-  document.write("The alphabet is vowel");
-} else {
-  document.write("The alphabet is consonant");
+// let inpCharac = prompt("Enter any alphabet of your choice (One Letter)");
+// if (inpCharac === "a" ||
+//   inpCharac === "e" ||
+//   inpCharac === "i" ||
+//   inpCharac === "o" ||
+//   inpCharac === "u") {
+//   document.write("The alphabet is vowel");
+// } else {
+//   document.write("The alphabet is consonant");
+// }
+
+// QUESTION NO 5
+let correctPass= "imama123"
+let passInp=prompt("enter you password")
+if (passInp==="") {
+    document.write("Pleasee! Enter Your Password")
+}else if(passInp===correctPass){
+    document.write("Correct! The password you entered matches the original password.")
+}else{
+    document.write("Incorrect Password!")
 }
+

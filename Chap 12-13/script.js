@@ -10,6 +10,7 @@
 //   document.write("both are same");
 // }
 
+
 // QUESTION NO 3
 // let inpNum= +prompt("Enter any number of your choice")
 // if (inpNum>0) {
@@ -19,6 +20,7 @@
 // } else {
 //     document.write("The number is Zero")
 // }
+
 
 // QUESTION NO 4
 // let inpCharac = prompt("Enter any alphabet of your choice (One Letter)");
@@ -32,6 +34,7 @@
 //   document.write("The alphabet is consonant");
 // }
 
+
 // QUESTION NO 5
 let correctPass= "imama123"
 let passInp=prompt("enter you password")
@@ -43,3 +46,13 @@ if (passInp==="") {
     document.write("Incorrect Password!")
 }
 
+
+// QUESTION NO 6
+var greeting;
+var hour =13 
+if (hour<18) {
+    greeting="Good Day";}
+ else{
+greeting="Good Evening";
+}
+// This statement does not work because there was a mistake in {} brackets

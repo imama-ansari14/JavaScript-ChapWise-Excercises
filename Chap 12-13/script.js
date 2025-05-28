@@ -36,23 +36,37 @@
 
 
 // QUESTION NO 5
-let correctPass= "imama123"
-let passInp=prompt("enter you password")
-if (passInp==="") {
-    document.write("Pleasee! Enter Your Password")
-}else if(passInp===correctPass){
-    document.write("Correct! The password you entered matches the original password.")
-}else{
-    document.write("Incorrect Password!")
-}
+// let correctPass= "imama123"
+// let passInp=prompt("enter you password")
+// if (passInp==="") {
+//     document.write("Pleasee! Enter Your Password")
+// }else if(passInp===correctPass){
+//     document.write("Correct! The password you entered matches the original password.")
+// }else{
+//     document.write("Incorrect Password!")
+// }
 
 
 // QUESTION NO 6
-var greeting;
-var hour =13 
-if (hour<18) {
-    greeting="Good Day";}
- else{
-greeting="Good Evening";
+// var greeting;
+// var hour =13 
+// if (hour<18) {
+//     greeting="Good Day";}
+//  else{
+// greeting="Good Evening";
+// }
+
+// OUTPUT : This statement does not work because there was a mistake in {} brackets
+
+
+// QUESTION NO 7
+let inpTime= +prompt("Enter the time in 24-hour clock format")
+if (inpTime<1200) {
+    document.write("Good Morning!")
+}else if (inpTime<1700) {
+    document.write("Good Afternoon!")
+}else if (inpTime<2100) {
+    document.write("Good Evening!")
+}else if (inpTime<2359) {
+    document.write("Good Night!")
 }
-// This statement does not work because there was a mistake in {} brackets

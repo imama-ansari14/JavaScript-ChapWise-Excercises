@@ -10,6 +10,9 @@ let stringArr = ["arham", "Hina", "imama", "Khizra"];
 // QUESTION NO 4
 let numArr=[14,1,2007]
 
+// QUESTION NO 5
+let booleanArr=[true,false]
+
 
 
 

@@ -17,4 +17,15 @@ let booleanArr = [true, false];
 let mixArr = ["imama", true, 14, "karachi", 6];
 
 // QUESTION NO 7
-let eduQual =["SSC", "HSC"," BCS", "BS", "BCOM", "MS", "M. Phil", "PhD"]
+let eduQual = ["SSC", "HSC", " BCS", "BS", "BCOM", "MS", "M. Phil", "PhD"];
+document.write("<h1>Qualifications:</h1>");
+document.write(`<ol>
+    <li>SSC</li>
+    <li>HSC</li>
+    <li>BCS</li>
+    <li>BS</li>
+    <li>BCOM</li>
+    <li>MS</li>
+    <li>M.Phil</li>
+    <li>PHD</li>
+</ol>`);

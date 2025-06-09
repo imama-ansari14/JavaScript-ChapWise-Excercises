@@ -29,3 +29,17 @@ document.write(`<ol>
     <li>M.Phil</li>
     <li>PHD</li>
 </ol>`);
+
+// QUESTION NO 8
+let stdNames=["Michael","John","Tony"]
+let stdScore=[320,230,480]
+
+for (let index = 0; index < stdNames.length; index++) {
+   let name= stdNames[index]
+   let score= stdScore[index]
+   let percentage  = (score / 500)*100;
+
+   console.log("Score of "+ name+ " is "+ score+ ". "+"Percentage:"+percentage+"%" );
+   
+}
+

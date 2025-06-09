@@ -31,15 +31,42 @@ document.write(`<ol>
 </ol>`);
 
 // QUESTION NO 8
-let stdNames=["Michael","John","Tony"]
-let stdScore=[320,230,480]
+let stdNames = ["Michael", "John", "Tony"];
+let stdScore = [320, 230, 480];
 
 for (let index = 0; index < stdNames.length; index++) {
-   let name= stdNames[index]
-   let score= stdScore[index]
-   let percentage  = (score / 500)*100;
+  let name = stdNames[index];
+  let score = stdScore[index];
+  let percentage = (score / 500) * 100;
 
-   console.log("Score of "+ name+ " is "+ score+ ". "+"Percentage:"+percentage+"%" );
-   
+  console.log(
+    "Score of " +
+      name +
+      " is " +
+      score +
+      ". " +
+      "Percentage:" +
+      percentage +
+      "%"
+  );
 }
+
+// QUESTION NO 9
+let colorNames = ["red", "pink", "orange"];
+console.log(colorNames);
+
+// a)
+let userChoice1 = prompt(
+  "What color would you want to add at the beginning of array??"
+);
+colorNames.unshift(userChoice1);
+console.log(colorNames);
+
+// b)
+let userChoice2 = prompt(
+  "What color would you want to add in the end of array??"
+);
+colorNames.push(userChoice2);
+console.log(colorNames);
+
 

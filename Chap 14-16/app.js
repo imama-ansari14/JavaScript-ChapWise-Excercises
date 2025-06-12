@@ -69,4 +69,17 @@ let userChoice2 = prompt(
 colorNames.push(userChoice2);
 console.log(colorNames);
 
+// c)
+colorNames.push("Grey", "White");
+console.log(colorNames);
+
+// d)
+colorNames.shift();
+console.log(colorNames);
+
+// e)
+colorNames.pop();
+console.log(colorNames);
+
+// f)
 

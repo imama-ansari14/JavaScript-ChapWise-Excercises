@@ -56,16 +56,16 @@ let colorNames = ["red", "pink", "orange"];
 console.log(colorNames);
 
 // a)
-// let userChoice1 = prompt(
-//   "What color would you want to add at the beginning of array??"
-// );
+let userChoice1 = prompt(
+  "What color would you want to add at the beginning of array??"
+);
 colorNames.unshift(userChoice1);
 console.log(colorNames);
 
 // b)
-// let userChoice2 = prompt(
-//   "What color would you want to add in the end of array??"
-// );
+let userChoice2 = prompt(
+  "What color would you want to add in the end of array??"
+);
 colorNames.push(userChoice2);
 console.log(colorNames);
 
@@ -82,9 +82,9 @@ colorNames.pop();
 console.log(colorNames);
 
 // f)
-// let colorIndex = +prompt(
-//   "Enter at which position do you want to add color in an array??"
-// );
+let colorIndex = +prompt(
+  "Enter at which position do you want to add color in an array??"
+);
 let color = prompt("Enter any color name of your choice..");
 colorNames.splice(colorIndex, 0, color);
 console.log(colorNames);
@@ -94,3 +94,14 @@ let colorIndex1 = +prompt("At which index do you want to delete color??");
 let color1 = +prompt("How many colors do you want to delete??");
 colorNames.splice(colorIndex1, color1);
 console.log(colorNames);
+
+// QUESTION NO 10
+let stdScores = [320, 230, 480, 120];
+console.log(stdScores);
+stdScores.sort();
+console.log(stdScores);
+
+// QUESTION NO 11
+
+
+

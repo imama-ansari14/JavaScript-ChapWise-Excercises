@@ -102,6 +102,8 @@ stdScores.sort();
 console.log(stdScores);
 
 // QUESTION NO 11
+let cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshwar"];
+let selectedCities = cities.slice(2, 4);
+console.log(selectedCities);
 
-
-
+// QUESTION NO 12

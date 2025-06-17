@@ -107,3 +107,8 @@ let selectedCities = cities.slice(2, 4);
 console.log(selectedCities);
 
 // QUESTION NO 12
+var arr =["This"," is "," my "," cat "]
+console.log(arr);
+
+let methodArr=arr.join("")
+console.log(methodArr);

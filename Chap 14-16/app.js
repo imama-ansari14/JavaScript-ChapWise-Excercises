@@ -107,8 +107,22 @@ let selectedCities = cities.slice(2, 4);
 console.log(selectedCities);
 
 // QUESTION NO 12
-var arr =["This"," is "," my "," cat "]
+var arr = ["This", " is ", " my ", " cat "];
 console.log(arr);
 
-let methodArr=arr.join("")
+let methodArr = arr.join("");
 console.log(methodArr);
+
+// QUESTION NO 13
+let array = [];
+array.push("keyboard");
+array.push("mouse");
+array.push("printer");
+array.push("monitor");
+console.log(array);
+
+array.shift();
+array.shift();
+array.shift();
+array.shift();
+console.log(array);

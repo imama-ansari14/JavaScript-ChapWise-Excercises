@@ -126,3 +126,18 @@ array.shift();
 array.shift();
 array.shift();
 console.log(array);
+
+// QUESTION NO 14
+let devices = [];
+devices.push("keyboard");
+devices.push("mouse");
+devices.push("printer");
+devices.push("monitor");
+console.log(devices);
+
+devices.pop();
+devices.pop();
+devices.pop();
+devices.pop();
+console.log(devices);
+

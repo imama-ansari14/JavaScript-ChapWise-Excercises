@@ -144,4 +144,16 @@ devices.pop();
 console.log(devices);
 
 // QUESTION NO 15
-let 
+let phManufactureres = [
+  "apple",
+  "samsung",
+  "motorola",
+  "nokia",
+  "sony",
+  "haier",
+];
+document.write("<select>");
+for (let i = 0; i < phManufactureres.length; i++) {
+  document.write("<option>" + phManufactureres[i] + "</option>");
+}
+document.write("</select>");

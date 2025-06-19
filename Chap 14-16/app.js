@@ -114,6 +114,7 @@ let methodArr = arr.join("");
 console.log(methodArr);
 
 // QUESTION NO 13
+// FIFO (First In, First Out) method
 let array = [];
 array.push("keyboard");
 array.push("mouse");
@@ -128,6 +129,7 @@ array.shift();
 console.log(array);
 
 // QUESTION NO 14
+// LIFO (Last In, First Out) method
 let devices = [];
 devices.push("keyboard");
 devices.push("mouse");
@@ -141,3 +143,5 @@ devices.pop();
 devices.pop();
 console.log(devices);
 
+// QUESTION NO 15
+let 

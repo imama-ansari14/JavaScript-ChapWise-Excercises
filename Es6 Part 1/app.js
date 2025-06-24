@@ -15,3 +15,11 @@ console.log(broName);
 const age = 18;
 // age= 17
 // we cant reassign const variable because JavaScript take it as constant value like pie
+
+// QUESTION NO 3
+var counter= ;
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
+

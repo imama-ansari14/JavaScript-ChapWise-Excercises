@@ -1,5 +1,5 @@
 //VARIABLE SCOPING (VAR/LET/CONST)
-// QUESTION NO 1
+// QUESTION NO 1 (Geminie)
 if (1 === 1) {
   var broName = "arham";
   console.log(broName);
@@ -16,10 +16,13 @@ const age = 18;
 // age= 17
 // we cant reassign const variable because JavaScript take it as constant value like pie
 
-// QUESTION NO 3
-var counter= ;
-for (let index = 0; index < array.length; index++) {
-  const element = array[index];
-  
+// QUESTION NO 3 (ChatGpt)
+// Declare a global variable using var and access it inside a function.
+var global ="globally declared"
+function name(param) {
+ console.log(global);
+ 
 }
+name()
 
+// QUESTION NO 4

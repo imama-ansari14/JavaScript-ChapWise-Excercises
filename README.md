@@ -1,0 +1,28 @@
+## Topics Of JavaScript
+- JavaScript (Es 5)
+  - [Docs](https://cdn.wccftech.com/wp-content/uploads/2014/10/JavaScript.pdf)
+  - [Assignments](https://github.com/ghousahmed/javascript-exercises)
+  - Fetch API/ AJAX
+    
+- Advanced Javascript (All ES 6 Topics)
+  - Variable Scoping
+  - Template literals
+  - Closure
+  - Destructuring
+  - Default parameters
+  - Rest parameter
+  - Spread Operator
+  - Arrow functions
+  - Enhanced object literals
+  - Iterators & For..of
+  - Generators
+  - Modules
+  - Map
+  - Array methods
+  - Higher-order function
+  - CallBack
+  - Promises
+  - Exponentiation Operator
+  - Classes
+  - Ternary Operator
+  - Optional chaining

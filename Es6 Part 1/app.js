@@ -26,3 +26,12 @@ function name(param) {
 }
 name();
 
+//Template Literals
+// QUESTION NO 1
+// Create a string that includes a variable firstName = "John" and lastName = "Doe" using template literals. The output should be "My name is John Doe"
+
+let firstName = "John";
+let lastName = "Doe";
+let merge = `My name is ${firstName} ${lastName}`;
+console.log(merge);
+

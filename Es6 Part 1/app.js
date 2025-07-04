@@ -35,3 +35,10 @@ let lastName = "Doe";
 let merge = `My name is ${firstName} ${lastName}`;
 console.log(merge);
 
+// QUESTION NO 2
+// Question: Create an object product = { name: "Laptop", price: 1200 }. Use a template literal to display: "The product Laptop costs $1200."
+
+let product = { name: "Laptop", price: 1200 };
+let display = `The product ${product["name"]} costs $${product["price"]}`;
+console.log(display);
+

@@ -5,11 +5,11 @@
   - Fetch API/ AJAX
     
 - Advanced Javascript (All ES 6 Topics)
-  - Variable Scoping
-  - Template literals
+  - Variable Scoping ✅
+  - Template literals ✅
+  - Default parameters 
   - Closure
   - Destructuring
-  - Default parameters
   - Rest parameter
   - Spread Operator
   - Arrow functions

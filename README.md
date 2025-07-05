@@ -9,7 +9,8 @@
   - Template literals ✅
   - Default parameters ✅
   - Rest parameter
-  - Spread Operator
+  - Spread Operator ✅
+  - Promises
   - Closure
   - Destructuring
   - Arrow functions
@@ -21,7 +22,6 @@
   - Array methods
   - Higher-order function
   - CallBack
-  - Promises
   - Exponentiation Operator
   - Classes
   - Ternary Operator

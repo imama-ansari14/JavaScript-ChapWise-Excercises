@@ -59,3 +59,21 @@ let duration = "6 weeks";
 let enrolled = `You have enrolled in the ${course} course which lasts for ${duration}.`;
 console.log(enrolled);
 
+// QUESTION NO 5
+let user = { name: "Ali", age: 22, city: "Karachi" };
+let data = `${user["name"]} is ${user["age"]} years old and lives in ${user["city"]}.`;
+console.log(data);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

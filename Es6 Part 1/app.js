@@ -42,3 +42,14 @@ let product = { name: "Laptop", price: 1200 };
 let display = `The product ${product["name"]} costs $${product["price"]}`;
 console.log(display);
 
+// QUESTION NO 3
+// Question: Use a template literal to create a multi-line string that displays a poem of at least three lines.
+
+let line1 = "The sun will rise and light the sky,";
+let line2 = "Chasing the dark clouds drifting by,";
+let line3 = "A new day begins, so bright and high.";
+let poemOutput = `${line1}
+${line2}
+${line3}`;
+console.log(poemOutput);
+

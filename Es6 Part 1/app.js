@@ -53,3 +53,9 @@ ${line2}
 ${line3}`;
 console.log(poemOutput);
 
+// QUESTION NO 4
+let course = "JavaScript";
+let duration = "6 weeks";
+let enrolled = `You have enrolled in the ${course} course which lasts for ${duration}.`;
+console.log(enrolled);
+

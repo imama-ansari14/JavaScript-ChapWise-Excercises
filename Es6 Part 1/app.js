@@ -64,16 +64,58 @@ let user = { name: "Ali", age: 22, city: "Karachi" };
 let data = `${user["name"]} is ${user["age"]} years old and lives in ${user["city"]}.`;
 console.log(data);
 
+// QUESTION NO 6
+function greetUser(name, time) {
+  let greetings = `Good ${time},${name}`;
+  console.log(greetings); //show output
+  return greetings; //Question Requirement
+}
+greetUser("Ahmed", "morning");
 
+// QUESTION NO 7
+let language = "JavaScript";
+let difficulty = "Intermediate";
+let challange = `Learning ${language} is an ${difficulty} level challenge.`;
+console.log(challange);
 
+// QUESTION NO 8
+let item = "Book";
+let cost = 500;
+let recipt = `Receipt:
+Item: ${item}
+Cost: ${cost}
+Thank you for your purchase!`;
+console.log(recipt);
 
+// DEFAULT PARAMETERS
+// QUESTION NO 1
+function greetUser(name = "Guest") {
+  console.log(`Hello,${name}`);
+}
+greetUser();
 
+// QUESTION NO 2
+function calculateArea(length = 1, width = 1) {
+  console.log(length * width);
+  return length * width;
+}
+calculateArea();
 
+// QUESTION NO 3
+function sendEmail(To, subject = "No Subject", body = "No Content") {
+  let message = `To:${To}, Subject: ${subject}, Body: ${body}!`;
+  console.log(message);
+}
+sendEmail("someone@example.com", "Hello", "Welcome");
 
-
-
-
-
-
-
+// QUESTION NO 4
+function createProfile(name = "Anonymous", age = 0, country = "Unknown") {
+  // console.log(createProfile);
+  return {
+    name: name,
+    age: age,
+    country: country,
+  };
+}
+console.log(createProfile());
 

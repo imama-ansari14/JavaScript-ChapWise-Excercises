@@ -158,3 +158,34 @@ let backend = ["node.js", "supabase", "firebase"];
 let fullStack = [...frontend, ...backend];
 console.log(fullStack);
 
+// QUESTION NO 4
+// Create an array called original = [1, 2, 3].Use the spread operator to clone it into a new array called copy, then log both to the console.
+
+let original = [1, 2, 3];
+console.log(original);
+let copy = [...original];
+console.log(copy);
+
+// QUESTION NO 5
+// Create an array of fruits. Use the spread operator to add one more fruit to it without using .push(), and log the result.
+
+let fruit = ["peach", "orange", "grapes", "guava"];
+let copyFruit = [...fruit, "banana", "leache"];
+console.log(copyFruit);
+
+// QUESTION NO 6
+// Create two objects,Use the spread operator to merge them into one object and print it.
+const obj1 = { name: "Imama" };
+const obj2 = { skill: "JavaScript" };
+const merged = { ...obj1, ...obj2 };
+console.log(merged);
+
+// QUESTION NO 7
+// Create a function sum(a, b, c) that adds 3 numbers.Now create an array nums = [10, 20, 30] and call sum(...nums) using the spread operator.
+
+function sum(a, b, c) {
+  console.log(a + b + c);
+}
+
+let array = [10, 20, 30];
+sum(...array);

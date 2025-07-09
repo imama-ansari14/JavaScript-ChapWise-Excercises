@@ -119,3 +119,42 @@ function createProfile(name = "Anonymous", age = 0, country = "Unknown") {
 }
 console.log(createProfile());
 
+// REST PARAMETERS
+// QUESTION NO 1
+// Create a function printAll that accepts any number of arguments and prints them one by one in the console.
+
+function printAll(...num) {
+  for (let i = 0; i < num.length; i++) {
+    console.log(num[i]);
+  }
+}
+printAll(1, 2, 3, 4, 5);
+
+// QUESTION NO 2
+function func(userName, ...para) {
+  console.log(userName);
+  console.log(...para);
+}
+func("Imama", "HTML", "CSS", "JS");
+
+// SPREAD OPERATORS
+// QUESTION NO 1
+const numbersOne = ["imama", "khizra", "warisha", "hareem"];
+const numbersTwo = ["hina", "arham"];
+const mix = [...numbersOne, ...numbersTwo];
+console.log(mix);
+
+// QUESTION NO 2
+const fruits = ["apple", "banana"];
+console.log(fruits);
+const newFruits = [...fruits, "mango"];
+console.log(newFruits);
+
+// QUESTION NO 3
+//Create two arrays: frontend and backend. Use the spread operator to combine them into one new array called fullStack, then print it.
+
+let frontend = ["HTML", "CSS", "JavaScript"];
+let backend = ["node.js", "supabase", "firebase"];
+let fullStack = [...frontend, ...backend];
+console.log(fullStack);
+

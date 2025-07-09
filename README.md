@@ -18,6 +18,7 @@
   - Destructuring ✅
   - setTimeOut ✅
   - Closure
+- FOLDER: ES6 PART 3  
   - Enhanced object literals
   - Iterators & For..of
   - Generators

@@ -35,3 +35,47 @@ let getArea = (length, width) => {
 };
 console.log(getArea(5, 10));
 
+// TERNARY OPERATOR
+// QUESTION NO 1
+// Create a variable with a number.Use a ternary operator to check if it is even or odd.Print "Even" if true, otherwise "Odd".
+let input = 8; // also use prompt here
+
+let checker = input % 2 === 0 ? "Even" : "Odd";
+
+console.log(checker);
+
+// QUESTION NO 2
+// Ask the user’s age (assign any numbser to a variable).Use a ternary operator to print "Eligible to vote" if age is 18 or more, otherwise "Not eligible".
+let ageInp = 20; // also use prompt here
+
+let userAge = ageInp >= 18 ? "Eligible to vote" : "Not Eligible";
+
+console.log(userAge);
+
+// QUESTION NO 3
+// Create a variable isLoggedIn = true or false. Use a ternary operator to print "Welcome back!" if true, otherwise "Please login".
+let isLoggedIn = true;
+let greets = isLoggedIn === true ? "Welcome back!" : "Please login";
+console.log(greets);
+
+// QUESTION NO 4
+// Create a variable with marks.
+// Use nested ternary to print:
+// "A+" if marks ≥ 90
+// "A" if marks ≥ 80
+// "B" if marks ≥ 70
+// "C" if marks ≥ 60
+// "Fail" otherwise
+let marks = 93;
+let result =
+  marks >= 90
+    ? "A+"
+    : marks >= 80
+    ? "A"
+    : marks >= 70
+    ? "B"
+    : marks >= 60
+    ? "C"
+    : "Fail";
+console.log(result);
+

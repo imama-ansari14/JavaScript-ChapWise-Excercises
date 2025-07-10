@@ -12,7 +12,7 @@
   - Rest parameter
   - Spread Operator ✅
 - FOLDER: ES6 PART 2  
-  - Arrow functions ✅
+  - Arrow functions  ✅
   - Ternary Operator ✅
   - Promises
   - Destructuring ✅

@@ -79,3 +79,44 @@ let result =
     : "Fail";
 console.log(result);
 
+// PROMISES
+// QUESTION NO 1
+// Make a promise that always resolves with the message "Data loaded successfully".Use .then() to print that message in the console.
+let app = new Promise((resolve, reject) => {
+  let success = true;
+
+  if (success) {
+    resolve("Data loaded successfully");
+  } else {
+    reject("Data not found");
+  }
+});
+
+app
+  .then((msg) => {
+    console.log(msg);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+
+// QUESTION NO 2
+// Make a promise that always rejects with the message "Data failed to load".Use .catch() to show that error in the console.
+let dataCheck = new Promise((resolve, reject) => {
+  let success = false;
+
+  if (success) {
+    resolve("Data loaded successfully");
+  } else {
+    reject("Data failed to load");
+  }
+});
+
+dataCheck
+  .then((msg) => {
+    console.log(msg);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+

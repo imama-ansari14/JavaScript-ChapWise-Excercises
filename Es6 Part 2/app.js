@@ -150,3 +150,42 @@ let { subject, mark } = subObj;
 console.log(subject);
 console.log(mark);
 
+//   SET TIME OUT
+// QUESTION NO 1
+// Write a setTimeout() that shows the message "Welcome to my site!" after 3 seconds.
+setTimeout(() => {
+  console.log("Welcome to my site!");
+}, 3000);
+
+// QUESTION NO 2
+// When a function named sayHello() is called, it should log "Hello Imama!" after 1 second using setTimeout().
+const sayHello = () => {
+  setTimeout(() => {
+    console.log("Hello Imama!");
+  }, 1000);
+};
+sayHello();
+
+// QUESTION NO 3
+// Create a button in HTML. When clicked, it should use setTimeout() to show "You clicked the button!" after 2.5 seconds in the alert.
+function showAlert() {
+  setTimeout(() => {
+    alert("You clicked the button!");
+  }, 2500);
+}
+
+// QUESTION NO 4
+// Use an arrow function inside setTimeout() to print "Learning is fun!" after 1000 milliseconds.
+setTimeout(() => {
+  console.log("Learning is fun!");
+}, 1000);
+
+// QUESTION NO 5
+// Define a function called showMessage that displays "Thanks for waiting!" in an alert box after 4 seconds, when you call it.
+let showMessage = () => {
+  setTimeout(() => {
+    alert("Thanks for waiting!");
+  }, 4000);
+};
+showMessage();
+

@@ -119,4 +119,34 @@ dataCheck
   .catch((err) => {
     console.log(err);
   });
+//   DESTRUCTURING
+// QUESTION NO 1
+let namesArr = ["Ali", "Ahmed", "Sara"];
+let [a, b, c] = namesArr;
+console.log(a);
+console.log(b);
+console.log(c);
+
+// QUESTION NO 2
+let shopObj = { brand: "Nike", price: 5000 };
+let { brand, price } = shopObj;
+console.log(brand);
+console.log(price);
+
+// QUESTION NO 3
+let numArr = [1, 2, 3, 4];
+let [x, , , z] = numArr;
+console.log(x);
+console.log(z);
+
+// QUESTION NO 4
+let bioObj = { fullName: "Imama Ansari", age: 18 };
+let { fullName: user, age } = bioObj;
+console.log(user);
+
+// QUESTION NO 5
+let subObj = { subject: "Math", mark: 95 };
+let { subject, mark } = subObj;
+console.log(subject);
+console.log(mark);
 

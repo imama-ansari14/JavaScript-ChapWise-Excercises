@@ -189,3 +189,38 @@ let showMessage = () => {
 };
 showMessage();
 
+// CLOSURE
+// QUESTION NO 1
+// Create a function createToggle() that returns another function which switches between "ON" and "OFF" each time it's called.
+let toggle = () => {
+  let state = false;
+  return function switches() {
+    state = !state;
+    if (state === true) {
+      return "ON";
+    } else {
+      return "OFF";
+    }
+  };
+};
+
+const myToggle = toggle();
+console.log(myToggle()); // "ON"
+console.log(myToggle()); // "OFF"
+
+// QUESTION NO 2
+//Write a function createIDGenerator() that returns a function which returns the next ID (starting from 1001) each time it's called.
+function createIDGenerator() {
+  let id = 1000;
+  return function () {
+    id++;
+    return id;
+  };
+}
+
+const getNextID = createIDGenerator();
+
+console.log(getNextID()); // 1001
+console.log(getNextID()); // 1002
+console.log(getNextID()); // 1003
+

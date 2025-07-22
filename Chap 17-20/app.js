@@ -25,4 +25,10 @@ for (let i = 1; i <= input2; i++) {
 document.write(input1 + " × " + i + " = " + input1 * i + "<br>");
 }
 
-
+// QUESTION NO 5
+let fruitsArr = ["apple", "banana", "mango", "orange", "stawbarry"]
+document.write("Element at index 0 is "+ fruitsArr[0] + "<br>")
+document.write("Element at index 1 is " + fruitsArr[1] + "<br>")
+document.write("Element at index 2 is " + fruitsArr[2] + "<br>")
+document.write("Element at index 3 is " + fruitsArr[3] + "<br>")
+document.write("Element at index 4 is " + fruitsArr[4] + "<br>")

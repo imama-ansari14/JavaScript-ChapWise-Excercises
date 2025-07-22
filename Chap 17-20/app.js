@@ -32,3 +32,21 @@ document.write("Element at index 1 is " + fruitsArr[1] + "<br>")
 document.write("Element at index 2 is " + fruitsArr[2] + "<br>")
 document.write("Element at index 3 is " + fruitsArr[3] + "<br>")
 document.write("Element at index 4 is " + fruitsArr[4] + "<br>")
+
+// QUESTION NO 7
+let bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
+let find = prompt("Welcome to Bakery. What do you want to order sir/mam??").toLowerCase();
+
+let matchFound = false;
+
+for (let i = 0; i < bakery.length; i++) {
+  if (bakery[i] === find) {
+    document.write(find + " is <strong>available</strong> at index " + i + " in our bakery.");
+    matchFound = true;
+    break; // Stop the loop after finding the match
+  }
+}
+
+if (!matchFound) {
+  document.write("We are sorry. " + find + " is <strong>not available</strong> in our bakery.");
+}

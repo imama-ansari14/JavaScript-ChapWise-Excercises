@@ -56,17 +56,27 @@ document.write(`</br>`)
 // QUESTION NO 8
 let largeNum = [24, 53, 78, 91, 12]
 let largest = largeNum[0]
-console.log(largest);
 
 for (let i = 0; i < largeNum.length; i++) {
   if (largeNum[i] > largest) {
     largest = largeNum[i]
-    console.log(largest);
   }
 }
 document.write(`Array items: ${largeNum} </br>`)
 document.write(`The largest number is :${largest} </br>`)
 
+document.write(`</br>`)
+// QUESTION NO 9
+let smallNum = [24, 53, 78, 91, 12]
+let smallest = largeNum[0]
+
+for (let i = 0; i < smallNum.length; i++) {
+  if (smallNum[i] < smallest) {
+    smallest = smallNum[i]
+  }
+}
+document.write(`Array items: ${smallNum} </br>`)
+document.write(`The smallest number is :${smallest} </br>`)
 
 
 

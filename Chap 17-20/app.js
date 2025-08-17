@@ -79,4 +79,14 @@ document.write(`Array items: ${smallNum} </br>`)
 document.write(`The smallest number is :${smallest} </br>`)
 
 
+document.write(`</br>`)
+// QUESTION NO 10 (Multiplication table of 5)
+for (let i = 5; i <= 100; i += 5) {
+  console.log(`5 * ${i / 5}  = ${i}`);
+}
+// ALTERNATIVE OPTION
+for (let i = 1; i <= 20; i++) {
+    console.log(`5 * ${i} = ${5 * i}`);
+}
+
 

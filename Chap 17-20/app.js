@@ -18,12 +18,12 @@ for (let i = 1; i <= 10; i++) {
 }
 
 // QUESTION NO 4
-// let input1 = +prompt("Enter table number")
-// let input2 = +prompt("Enter lenght of table")
-// document.write("Multiplication Table Of " + input1 + "<br>")
-// for (let i = 1; i <= input2; i++) {
-// document.write(input1 + " × " + i + " = " + input1 * i + "<br>");
-// }
+let input1 = +prompt("Enter table number")
+let input2 = +prompt("Enter lenght of table")
+document.write("Multiplication Table Of " + input1 + "<br>")
+for (let i = 1; i <= input2; i++) {
+document.write(input1 + " × " + i + " = " + input1 * i + "<br>");
+ }
 
 // QUESTION NO 5
 let fruitsArr = ["apple", "banana", "mango", "orange", "stawbarry"]
@@ -36,7 +36,7 @@ document.write("Element at index 4 is " + fruitsArr[4] + "<br>")
 document.write(`</br>`)
 // QUESTION NO 7
 let bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
-// let find = prompt("Welcome to Bakery. What do you want to order sir/mam??").toLowerCase();
+let find = prompt("Welcome to Bakery. What do you want to order sir/mam??").toLowerCase();
 
 let matchFound = false;
 

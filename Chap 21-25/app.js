@@ -14,7 +14,17 @@
 let nation= "Pakistani"
 let index=nation.indexOf("n")
 document.write(`String: ${nation}</br>`)
-document.write(`Index of 'n': ${index}</br>`)
+document.write(`Index of 'n': ${index}</br></br>`)
+
+//QUESTION NO 4
+let greet= "Hello World"
+let lastIndex=greet.lastIndexOf("l")
+document.write(`String: ${greet}</br>`)
+document.write(`Last Index of 'l': ${lastIndex}</br></br>`)
+
+//QUESTION NO 5
+
+
 
 
 

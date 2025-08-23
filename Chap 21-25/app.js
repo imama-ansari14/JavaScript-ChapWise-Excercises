@@ -24,11 +24,26 @@ document.write(`Last Index of 'l': ${lastIndex}</br></br>`)
 
 //QUESTION NO 5
 let nationality = "Pakistani"
-let find =nationality.charAt(3)
+let find = nationality.charAt(3)
 document.write(`String: ${nationality}</br>`)
 document.write(`Character at index 3: ${find}</br></br>`)
 
 //QUESTION NO 6
+// let firstName= prompt("Enter your first name")
+// let lastName= prompt("Enter your last name")
+// let fullName= `${firstName} ${lastName}`
+// alert(`Helloo! ${fullName}`)
+
+//QUESTION NO 7
+let city = "Hyderabad";
+let newCity = city.replace("Hyder", "Islam");
+document.write(`City: ${city}</br>`)
+document.write(`After replacement: ${newCity}</br>`)
+
+//QUESTION NO 8
+
+
+
 
 
 

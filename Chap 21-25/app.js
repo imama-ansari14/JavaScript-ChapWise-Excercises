@@ -38,12 +38,13 @@ document.write(`Character at index 3: ${find}</br></br>`)
 let city = "Hyderabad";
 let newCity = city.replace("Hyder", "Islam");
 document.write(`City: ${city}</br>`)
-document.write(`After replacement: ${newCity}</br>`)
+document.write(`After replacement: ${newCity}</br></br>`)
 
 //QUESTION NO 8
-
-
-
+var message = "Ali and sami are best friends. They play cricket and football together."
+let newMess=message.replaceAll("and","&")
+document.write(`City: ${message}</br>`)
+document.write(`After replacement: ${newMess}</br>`)
 
 
 

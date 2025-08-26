@@ -43,17 +43,23 @@ document.write(`After replacement: ${newCity}</br></br>`)
 
 //QUESTION NO 8
 var message = "Ali and sami are best friends. They play cricket and football together."
-let newMess=message.replaceAll("and","&")
+let newMess = message.replaceAll("and", "&")
 document.write(`Message: ${message}</br>`)
 document.write(`After replacement: ${newMess}</br></br>`)
 
 //QUESTION NO 9
-let value= "472"
-let num =Number(value)
+let value = "472"
+let num = Number(value)
 document.write(`Value: ${value}</br>`)
-document.write(`Type: ${typeof(value)}</br>`)
+document.write(`Type: ${typeof (value)}</br>`)
 document.write(`Value: ${num}</br>`)
-document.write(`Type: ${typeof(num)}</br></br>`)
+document.write(`Type: ${typeof (num)}</br></br>`)
+
+//QUESTION NO 10
+let userInp = prompt("Enter Anything!!");
+let upperCase = userInp.toUpperCase()
+document.write(`User input:${userInp} </br>`)
+document.write(`Upper case:${upperCase} </br></br>`)
 
 
 

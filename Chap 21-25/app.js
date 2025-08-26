@@ -29,10 +29,10 @@ document.write(`String: ${nationality}</br>`)
 document.write(`Character at index 3: ${find}</br></br>`)
 
 //QUESTION NO 6
-let firstName= prompt("Enter your first name")
-let lastName= prompt("Enter your last name")
-let fullName= firstName.concat(" "+ lastName)
-document.write(`${fullName}</br></br>`)
+// let firstName= prompt("Enter your first name")
+// let lastName= prompt("Enter your last name")
+// let fullName= firstName.concat(" "+ lastName)
+// document.write(`${fullName}</br></br>`)
 
 
 //QUESTION NO 7
@@ -48,11 +48,12 @@ document.write(`Message: ${message}</br>`)
 document.write(`After replacement: ${newMess}</br></br>`)
 
 //QUESTION NO 9
-
-document.write(`Value: ${city}</br>`)
-document.write(`Type: ${newCity}</br>`)
-document.write(`Value: ${city}</br>`)
-document.write(`Type: ${newCity}</br></br>`)
+let value= "472"
+let num =Number(value)
+document.write(`Value: ${value}</br>`)
+document.write(`Type: ${typeof(value)}</br>`)
+document.write(`Value: ${num}</br>`)
+document.write(`Type: ${typeof(num)}</br></br>`)
 
 
 

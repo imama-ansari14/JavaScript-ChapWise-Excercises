@@ -49,11 +49,11 @@ document.write(`After replacement: ${newMess}</br></br>`)
 
 //QUESTION NO 9
 let value = "472"
-let num = Number(value)
+let numb = Number(value)
 document.write(`Value: ${value}</br>`)
 document.write(`Type: ${typeof (value)}</br>`)
-document.write(`Value: ${num}</br>`)
-document.write(`Type: ${typeof (num)}</br></br>`)
+document.write(`Value: ${numb}</br>`)
+document.write(`Type: ${typeof (numb)}</br></br>`)
 
 //QUESTION NO 10
 // let userInp = prompt("Enter Anything!!");
@@ -62,19 +62,24 @@ document.write(`Type: ${typeof (num)}</br></br>`)
 // document.write(`Upper case:${upperCase} </br></br>`)
 
 //QUESTION NO 11
-let userInp1 = prompt("Enter anything!!");
-let words = userInp1.split(" ");
-for (let i = 0; i < words.length; i++) {
-    let firstChar = words[i].charAt(0).toUpperCase();
-    let restChars = words[i].slice(1).toLowerCase();
-    words[i] = firstChar + restChars;
-}
-let titleCase = words.join(" ");
-document.write(`User input: ${userInp1} </br>`);
-document.write(`Title case: ${titleCase} </br></br>`);
+// let userInp1 = prompt("Enter anything!!");
+// let words = userInp1.split(" ");
+// for (let i = 0; i < words.length; i++) {
+    // let firstChar = words[i].charAt(0).toUpperCase();
+    // let restChars = words[i].slice(1).toLowerCase();
+    // words[i] = firstChar + restChars;
+// }
+// let titleCase = words.join(" ");
+// document.write(`User input: ${userInp1} </br>`);
+// document.write(`Title case: ${titleCase} </br></br>`);
 
 //QUESTION NO 12
+var num = 35.36;
 
+//QUESTION NO 18
+let text= "the quick brown fox jumps over the lazy dog"
+let search = text.matchAll("the") 
+console.log(search);
 
 
 

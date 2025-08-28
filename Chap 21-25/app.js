@@ -62,10 +62,16 @@ document.write(`Type: ${typeof (num)}</br></br>`)
 // document.write(`Upper case:${upperCase} </br></br>`)
 
 //QUESTION NO 11
-let userInp1 = prompt("Enter Anything!!");
-let titleCase = userInp1.toLocaleLowerCase();
-document.write(`User input:${userInp1} </br>`)
-document.write(`Title case:${titleCase} </br></br>`)
+let userInp1 = prompt("Enter anything!!");
+let words = userInp1.split(" ");
+for (let i = 0; i < words.length; i++) {
+    let firstChar = words[i].charAt(0).toUpperCase();
+    let restChars = words[i].slice(1).toLowerCase();
+    words[i] = firstChar + restChars;
+}
+let titleCase = words.join(" ");
+document.write(`User input: ${userInp1} </br>`);
+document.write(`Title case: ${titleCase} </br></br>`);
 
 //QUESTION NO 12
 

@@ -56,10 +56,20 @@ document.write(`Value: ${num}</br>`)
 document.write(`Type: ${typeof (num)}</br></br>`)
 
 //QUESTION NO 10
-let userInp = prompt("Enter Anything!!");
-let upperCase = userInp.toUpperCase()
-document.write(`User input:${userInp} </br>`)
-document.write(`Upper case:${upperCase} </br></br>`)
+// let userInp = prompt("Enter Anything!!");
+// let upperCase = userInp.toUpperCase()
+// document.write(`User input:${userInp} </br>`)
+// document.write(`Upper case:${upperCase} </br></br>`)
+
+//QUESTION NO 11
+let userInp1 = prompt("Enter Anything!!");
+let titleCase = userInp1.toLocaleLowerCase();
+document.write(`User input:${userInp1} </br>`)
+document.write(`Title case:${titleCase} </br></br>`)
+
+//QUESTION NO 12
+
+
 
 
 

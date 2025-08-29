@@ -75,11 +75,19 @@ document.write(`Type: ${typeof (numb)}</br></br>`)
 
 //QUESTION NO 12
 var num = 35.36;
+var str = num.toString(); 
+var result= str.replace(".","")
+document.write(`Number: ${num} </br>`);
+document.write(`Result: ${result} </br></br>`);
+
+
+//QUESTION NO 13
+
 
 //QUESTION NO 18
 let text= "the quick brown fox jumps over the lazy dog"
-let search = text.matchAll("the") 
-console.log(search);
+let search = text.includes("the") 
+// console.log(search);
 
 
 

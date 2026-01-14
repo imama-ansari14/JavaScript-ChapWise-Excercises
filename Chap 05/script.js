@@ -1,3 +1,5 @@
+//--------- CHAP NO 5----------
+
 // QUESTION NO 1
 let num1 = +prompt("Enter your any frav number");
 let num2 = +prompt("Enter your another frav number");

@@ -82,6 +82,12 @@ document.write(`Result: ${result} </br></br>`);
 
 
 //QUESTION NO 13
+let userName = prompt("Enter your username");
+for (let i = 0; i < userName; i++) {
+
+    
+}
+console.log(userName[i]);
 
 
 //QUESTION NO 18

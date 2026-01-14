@@ -1,3 +1,5 @@
+//--------- CHAP NO 3----------
+
 // QUESTION NO 1
 var age;
 age=18;

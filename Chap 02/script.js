@@ -1,3 +1,5 @@
+//--------- CHAP NO 2----------
+
 // QUESTION NO 1
 var username;
 // QUESTION NO 2

@@ -1,3 +1,5 @@
+//--------- CHAP NO 6-9----------
+
 // QUESTION NO 1
 let a =10
 

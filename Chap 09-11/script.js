@@ -1,3 +1,5 @@
+//--------- CHAP NO 9-11----------
+
 // QUESTION NO 01
 let city= prompt ("Enter your city name")
 if (city=="karachi") {

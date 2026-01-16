@@ -1,3 +1,5 @@
+//--------- CHAP NO 12-13----------
+
 // QUESTION NO 2
 let input1 = +prompt("Enter the first number of your choice");
 let input2 = +prompt("Enter the second number of your choice");
